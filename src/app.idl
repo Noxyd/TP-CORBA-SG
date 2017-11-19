@@ -1,0 +1,16 @@
+module app {
+
+    interface talk {
+		
+		void printMessage(in string message);
+       
+    };
+
+    interface chat {
+		
+		void broadcast(in string message);
+        void register(in string idObj);
+       
+    };
+};
+
